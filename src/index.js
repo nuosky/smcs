@@ -1,1 +1,79 @@
-const a=['MHgxNA==','YXRvYg==','MHhh','VkhRWg==','d3J0UkV4WENzQ3BKdzVVa1I4T1dBdz09','MHgyMg==','TXBvZQ==','MHg0YQ==','MHg0Zg==','KnMmVQ==','ZGZyZGVH','dHJ1ZQ==','MHgzNg==','YWcwT3dxMD0=','MHgzZg==','MHg0OQ==','QUhKXg==','TDhLclhzT1RhRXZEbEJRaFNBPT0=','MHgyNA==','cHVzaA==','MHgxNQ==','Z2NqVHdX','MHg2','MHgyNg==','dzRURGlNT013NVhEbk1LSnc2ST0=','dzRMRG44T2R3NWZEanNLTXc2ZzF3NWs9','MHg0Mw==','Y2hhckNvZGVBdA==','MHgxYg==','VUZGNnc0UENyd2h2RDhLNHdybEw=','QiFLOQ==','WEB1YQ==','MHg4','QlJ6RGttTTFFRHhF','dzZuRHNzS05Bdz09','dzQ3RHZzS2NDOE9XdzdqQ3FNT0h3NVhDamt4dXc0SERwY0tWd3FGNHdxNVB3NFBDbjhPVmRzTzVHTU9ldzRqQ2xBPT0=','MHg1NQ==','dzdNbFRUYkR2OEtkd3FEQ2xnPT0=','c2V0','MHgzZQ==','MHgxZA==','SiF6eA==','YzhLQ1JRPT0=','MHgyZQ==','MHgzYg==','VEE5bg==','dzVjQXdyckNrOE9KdzRNQ3dyckRoeGJEb1hZPQ==','MHgxOA==','MHg5','MHgyNw==','RmNPcHdvekR0TUtjSEE9PQ==','d3FKVkZSckN1am89','dHZvbUhS','S3NLTWJRPT0=','dzdYRGt6YkNoV0hDajhPQnc2QT0=','dzdIRGt5YkNrSHZDaDhPRHc2cz0=','MHg0NQ==','S1Z0WXdwVENxVUFuQ1R0bndyVVJCOEthdzZyRGpNSy93NEJXd29KU3c2SENpc090TU1PM0FRWlF3cVFVVWc9PQ==','Wk1PUndwcz0=','I3UqVg==','YmNLaUw4S2N3cHZEc3NLVWJBPT0=','YWNPRHdyekNveExDbHNPQXdxbz0=','MHgzMw==','MHg0MQ==','ODY0MDA=','MHgxZQ==','WmNPUndwNXp3NVl3d3FvPQ==','MHg1Mw==','RHgzXQ==','dzR2Q2hNT08=','VUdMQ2o4T3VBbnMz','V0pbWQ==','MHgzMA==','Y2NPUndwdGx3NXM9','RylJVA==','N3JkVA==','ZUhCT2JYa2l3NFZP','MWMpNg==','dzU3Q3R3QT0=','dGV4dC8=','ZmNPRkRBPT0=','Y01La0hXYkNsUkVqQXNPcGVETERrY0ttTTBOMXdySTR3b1hDcXNPUGU4Szh3cEZ2VnNLTFU4T0N3NVhDdlFNNXdwdDc=','QUYxYXdwWEN2MEY1','QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLz0=','MHg0Yw==','MHhj','ZXNPUndwdHV3NXdu','MHg0ZA==','MHgzMQ==','MHgxZg==','MHgxMQ==','T1NCcXc1akNwRXNQdzZrPQ==','Y3VycmVudE9yaWdpbg==','T2k2Nw==','dzRMRGpNT093NTdEbU1LZXc0ZzF3NTBNdzdiRGtBPT0=','dzdYRG1TVENsV3JDbk1PZg==','QVNBWUNTa2hTUT09','d3JjR0s4Tzg=','MHhm','ZnJvbUNoYXJDb2Rl','c2hpZnQ=','MHgyMA==','Z1hvVg==','UU1LdUJ3PT0=','d3B6RGswWERtTUtsYmhqRGxtWkR3NU09','MHg0MA==','SEYxRHdvVT0=','aGVhZGVycw==','RyY4dA==','MHgxNg==','bG9jYXRpb24=','cnZDMg==','VXNLN0EzN0NtUncyVzhPVWJpekNtOE9nY25SaHdyVXp3cGpDc2NPV2RRPT0=','TnhqQ2tRUll3b0hEdUE9PQ==','MHgzYw==','dzZIRHZFakRtMWZDamdJVHc2WEN2VW5EaE1PVk1nPT0=','YWN0aW9u','d3B6RGdjT213b3ZEbjhLYWFnPT0=','MHgxMw==','dzViQ3JsUllSRzg9','MHgyOA==','R2F4SQ==','bXl3TQ==','d29YQ3R3M0RzOEtjTjhPcw==','c3RhdHVz','MHgzNA==','MHhk','ekp5dQ==','MHg0Ng==','d3BYRGhGYkRuY0s1WGg0PQ==','MHgzOA==','MHhi','MHgzNw==','dCFAWw==','MHg0OA==','cW5xTGpB','dzdmQ2tWQT0=','MHgz','WmNPSHdxbkNwbHJDa2NPQg==','MHgyYg==','SlFSVw==','MHgxMA==','YXBwbGljYXRpb24veG1s','dzVyRHVSSERuUy9DdnNPanc1WUF3NDdDc3NPNFZucE9XOEsxSHNLSlJzT053NEhEbGNPckFFL0NnOE9CVk1PbUM4S0N3cEp5dzZmQ2pGYzQ=','d3BZdllzT1R3NXJDa1FERGpjT2JJdz09','SDhLWkVzT2tjbGJEcmhRNlNNT0xBY095SDhPSkp3PT0=','UThLSVh6ekNqUVpmdzZiQ3JHZHFDY0tFdzUzRHNjS213cjg4ZVNzV3dxZkR2R284d3BuRG5jS2x3b2JDdnNPZ09jS2V3NDNDbk1PaHdwNEN3NWR6TDhPbFFrTERuOE9PVmlBcGVCZkR2UzQ9','MHg0','MHg1Mg==','NzJPZg==','MHgyZA==','MHgzYQ==','Zmdsd3c1ZDBUTU8vTmNLUndvVWxFZ1BEc01PY1NNT1lKTU9wSlFQQ3FnVERvQWpDbzhPdFpnPT0=','MHgx','c3RhcnRzV2l0aA==','dzRqRG1NS3I=','MHgyNQ==','dzZ6RHNzS1JHc09BdzZYRHNjS3B3NDdDbVVoNQ==','WVFBWw==','eSQ2bg==','RThLUndyYzlKOEs2dzZzPQ==','d3BuRGdjTzB3cHpEbThLUGZBPT0=','Zlh0RFpuZ3U=','TDhLclhzT1ZhVXZEbHhndFZBPT0=','UmNLdWZRZkRqTUtLdzV6Q3FGOFlMd3Q3YjJiQ21RPT0=','Nnk2YQ==','dzRqRG1NS3JRc0tGdzV2RGlzT1h3NjdEakJoTXc3dkRuY0tVdzRCUXdvZHN3N0hEcHNPWVA4SzRMTU82dzY3Q3BNT253bzQ4SDhPM1BETTZ3by9DcEE9PQ==','ZmNPUXdxZkN0bERDZ01PZHdxbz0=','NEk1Uw==','OSFROA==','MHgxMg==','aW5kZXhPZg==','ZFJBQndySjdadz09','dzRqQ3JrRkNTR009','QkhOU3dyVERnbWZDaHc9PQ==','ZkNJY3dyWnhXM2t0','MHgyMQ==','bGVuZ3Ro','UHJveHkgRXJyb3I6IA==','MHg1','cmVwbGFjZQ==','RXNLUndyTVFNc0t0dzd3M3dya0tOQVU9','Q0JmRG5XbzBFUT09','aU5DJQ==','TVloTw==','MHg0Nw==','SThPY0tNS0l3cnJDa0dNPQ==','MHgzOQ==','bW1VNQ==','MHg0NA==','U01LSVFqdz0=','MHg1MQ==','JkJrJA==','ZFopWg==','SSVweQ==','Tk1LNlhzT0RlRXJEc3c9PQ==','dzVIRGlNT0l3N2pEaWNLZXc3VXV3NVlldzZ2RG13PT0=','ZG9EZw==','Q2NPZ0djS3N3cERDc0VRPQ==','MHg1MA==','dUNWQA==','c2NyaXB0','MUtwTQ==','MHgy','U3NPUXdvUERqUT09','ZnNLRk9Fdz0=','MHgyYQ==','WkRiKQ=='];(function(b,e){const f=function(g){while(--g){b['push'](b['shift']());}};f(++e);}(a,0x12b));const b=function(c,d){c=c-0x0;let e=a[c];if(b['lpXvVf']===undefined){(function(){let g;try{const i=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');g=i();}catch(j){g=window;}const h='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';g['atob']||(g['atob']=function(k){const l=String(k)['replace'](/=+$/,'');let m='';for(let n=0x0,o,p,q=0x0;p=l['charAt'](q++);~p&&(o=n%0x4?o*0x40+p:p,n++%0x4)?m+=String['fromCharCode'](0xff&o>>(-0x2*n&0x6)):0x0){p=h['indexOf'](p);}return m;});}());b['fbYqog']=function(g){const h=atob(g);let j=[];for(let k=0x0,l=h['length'];k<l;k++){j+='%'+('00'+h['charCodeAt'](k)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(j);};b['PctktD']={};b['lpXvVf']=!![];}const f=b['PctktD'][c];if(f===undefined){e=b['fbYqog'](e);b['PctktD'][c]=e;}else{e=f;}return e;};const _0x4bc8=[b('0xa2'),b('0x9f'),b('0x3'),b('0x5a'),b('0xac'),'wrxCAg==',b('0x6'),b('0xc5'),b('0xba'),b('0x20'),'L8K6Sw==',b('0x52'),b('0x37'),b('0xc7'),b('0xc3'),b('0x46'),'ZXtVdSMuw5RQwqg=',b('0xb2'),b('0x96'),b('0x98'),'QcOXwpTDmcO5fcO8wrMUwpzCuhVZ',b('0x79'),b('0xab'),b('0xd'),b('0x69'),b('0x16'),'W0FkM8Ktw5g=',b('0x34'),b('0x68'),b('0x54'),b('0x5f'),b('0x49'),b('0x18'),'Kg/CnA==',b('0x4c'),b('0x82'),b('0xa8'),b('0x97'),b('0xa7'),b('0x40'),b('0x92'),b('0x71'),b('0x36'),b('0xc1'),b('0xaa'),b('0x2d'),b('0x6b'),b('0xbe'),b('0x8d'),b('0x51'),b('0x4b'),b('0x9a'),b('0x5'),b('0x1c'),b('0x26'),b('0xa3'),b('0xae'),b('0x2f'),b('0x35'),b('0x86'),b('0x48'),'w6HDmmzDosKnwq48JWI=','w7PDnsOMbA==',b('0x15'),b('0xb7'),b('0x47'),b('0x0'),b('0xbb'),b('0xc'),b('0xc6'),b('0xf'),b('0x8e'),b('0x45'),b('0x72'),b('0x53'),b('0x5b'),b('0x4'),b('0x1a'),'QmLCrsOfEXExw5Q=',b('0xcb'),b('0x42'),b('0xb1'),b('0x63'),'w4zDm8OSPMOEw7I=',b('0xaf'),b('0x3d')];(function(c,d){const e=function(f){while(--f){c[b('0x88')](c[b('0x9')]());}};e(++d);}(_0x4bc8,0xb8));const _0x2ade=function(c,d){c=c-0x0;let e=_0x4bc8[c];if(_0x2ade[b('0xa9')]===undefined){(function(){let h;try{const j=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');h=j();}catch(k){h=window;}const i=b('0xc8');h[b('0x76')]||(h[b('0x76')]=function(l){const m=String(l)[b('0x59')](/=+$/,'');let n='';for(let o=0x0,p,q,r=0x0;q=m['charAt'](r++);~q&&(p=o%0x4?p*0x40+q:q,o++%0x4)?n+=String[b('0x8')](0xff&p>>(-0x2*o&0x6)):0x0){q=i[b('0x50')](q);}return n;});}());const g=function(h,i){let j=[],k=0x0,l,m='',n='';h=atob(h);for(let p=0x0,q=h['length'];p<q;p++){n+='%'+('00'+h[b('0x90')](p)['toString'](0x10))['slice'](-0x2);}h=decodeURIComponent(n);let o;for(o=0x0;o<0x100;o++){j[o]=o;}for(o=0x0;o<0x100;o++){k=(k+j[o]+i['charCodeAt'](o%i['length']))%0x100;l=j[o];j[o]=j[k];j[k]=l;}o=0x0;k=0x0;for(let r=0x0;r<h[b('0x56')];r++){o=(o+0x1)%0x100;k=(k+j[o])%0x100;l=j[o];j[o]=j[k];j[k]=l;m+=String[b('0x8')](h[b('0x90')](r)^j[(j[o]+j[k])%0x100]);}return m;};_0x2ade[b('0x7f')]=g;_0x2ade[b('0x2c')]={};_0x2ade[b('0xa9')]=!![];}const f=_0x2ade[b('0x2c')][c];if(f===undefined){if(_0x2ade[b('0x8a')]===undefined){_0x2ade[b('0x8a')]=!![];}e=_0x2ade[b('0x7f')](e,d);_0x2ade['qnqLjA'][c]=e;}else{e=f;}return e;};const TARGET_URL='https://www.smcs.workers.dev';class LinkRewriter{constructor(c,d){this[_0x2ade(b('0x95'),b('0x4e'))]=c;this[_0x2ade(b('0xc9'),b('0x2'))]=d;}[_0x2ade(b('0x4f'),b('0x43'))](c){const d=[_0x2ade(b('0x9d'),b('0x4e')),_0x2ade(b('0x7d'),'iNC%'),b('0x19'),_0x2ade(b('0xad'),'UA3O'),_0x2ade(b('0x58'),'uCV@'),_0x2ade(b('0xcd'),'L%m@')];for(const e of d){const f=c[_0x2ade(b('0xca'),'Oi67')](e);if(f&&f[b('0x3f')](this[_0x2ade(b('0xa5'),b('0x5c'))])){c[_0x2ade(b('0xcc'),b('0x7b'))](e,f[_0x2ade(b('0x87'),b('0x2'))](this[_0x2ade(b('0x30'),b('0x9e'))],this[b('0x1')]));}}}}async function handleRequest(c){if(c[_0x2ade(b('0xa4'),b('0x5c'))]===_0x2ade(b('0x7a'),b('0x43'))){return new Response(null,{'status':0xcc,'headers':{'Access-Control-Allow-Origin':'*','Access-Control-Allow-Methods':_0x2ade(b('0x7'),b('0xb9')),'Access-Control-Allow-Headers':_0x2ade('0x0',b('0xc0')),'Access-Control-Allow-Credentials':b('0x80'),'Access-Control-Max-Age':b('0xb5')}});}const d=new URL(c[_0x2ade(b('0x89'),b('0x31'))]);const e=new URL(TARGET_URL+d[_0x2ade(b('0xcf'),b('0x78'))]+d[_0x2ade('0x29',b('0xc2'))]);const f=new Headers(c[b('0x10')]);f[_0x2ade('0x54','B!K9')](_0x2ade(b('0x25'),b('0xc0')),e[_0x2ade(b('0x77'),b('0xb9'))]);[_0x2ade(b('0xb6'),b('0x93')),_0x2ade(b('0x5e'),b('0x5d')),_0x2ade(b('0xa0'),b('0x2a'))][_0x2ade(b('0x29'),b('0x85'))](i=>f[_0x2ade(b('0x83'),b('0x1e'))](i));let g=null;if(c[_0x2ade(b('0x99'),b('0xc2'))]!==_0x2ade(b('0x91'),b('0x5d'))&&c[_0x2ade(b('0x8f'),'G&8t')]!==_0x2ade('0x32',b('0x3a'))){g=await c[_0x2ade(b('0x28'),b('0xbf'))]();}const h=new Request(e,{'method':c[_0x2ade('0xe',b('0x4d'))],'headers':f,'body':g});try{let i=await fetch(h);const j=i[_0x2ade(b('0x2e'),b('0x7e'))][_0x2ade(b('0x64'),b('0x4a'))](_0x2ade(b('0x62'),b('0x5d')))||'';const k=d[_0x2ade(b('0x12'),b('0x6d'))]+'//'+d[_0x2ade('0x3d',b('0xbc'))];if(i[_0x2ade('0x1a',b('0x6f'))]>=0x12c&&i[_0x2ade(b('0x41'),b('0x74'))]<0x190&&i[_0x2ade(b('0x1d'),'%ILE')][_0x2ade(b('0xa'),'E]5]')](_0x2ade('0x4e',b('0xb9')))){let l=i[_0x2ade(b('0x3b'),b('0x6d'))][_0x2ade(b('0x55'),b('0x67'))](b('0x13'));if(l[_0x2ade(b('0xbd'),b('0x93'))](TARGET_URL)){l=l[b('0x59')](TARGET_URL,k);const m=new Response(i[_0x2ade(b('0x6c'),b('0x2a'))],i);m[_0x2ade(b('0xe'),b('0xb9'))][_0x2ade(b('0x2b'),b('0x11'))](_0x2ade(b('0xa6'),b('0x94')),l);i=m;}}if(j[_0x2ade(b('0x8b'),b('0x1e'))](_0x2ade(b('0x38'),'dZ)Z'))){const n=new HTMLRewriter()['on']('a',new LinkRewriter(k,TARGET_URL))['on'](_0x2ade('0x17',b('0x74')),new LinkRewriter(k,TARGET_URL))['on'](_0x2ade(b('0x39'),'JaiT'),new LinkRewriter(k,TARGET_URL))['on'](b('0x6e'),new LinkRewriter(k,TARGET_URL))['on'](_0x2ade('0x19','MYhO'),new LinkRewriter(k,TARGET_URL));i=n[_0x2ade(b('0xa1'),b('0x2'))](i);}else if(j[_0x2ade(b('0x81'),b('0x61'))](b('0xc4'))||j[_0x2ade('0x6',b('0x1e'))](_0x2ade(b('0xb3'),b('0x44')))||j['includes'](_0x2ade(b('0x1b'),b('0x6a')))||j[_0x2ade(b('0xce'),b('0x66'))](b('0x33'))){let o=await i[_0x2ade(b('0x3c'),b('0xb0'))]();const p=TARGET_URL[b('0x59')](/[.*+?^${}()|[\]\\]/g,_0x2ade(b('0x70'),b('0xb')));o=o[_0x2ade(b('0x17'),'Mpoe')](new RegExp(p,'g'),k);i=new Response(o,{'status':i[b('0x21')],'statusText':i[_0x2ade('0x2f','B!K9')],'headers':i[_0x2ade(b('0x3e'),b('0xb0'))]});i[_0x2ade(b('0x32'),'B!K9')][b('0x9b')](_0x2ade(b('0x75'),b('0xb')),o[_0x2ade('0x35',b('0x66'))][_0x2ade('0x42',b('0x85'))]());}i[_0x2ade(b('0x73'),b('0xbf'))][_0x2ade(b('0x27'),b('0x44'))]('Access-Control-Allow-Origin','*');i[_0x2ade(b('0xb8'),b('0x1f'))][_0x2ade(b('0x7c'),b('0x65'))](_0x2ade(b('0x84'),b('0x65')),_0x2ade(b('0x8c'),b('0x5d')));i[_0x2ade(b('0x9c'),b('0x14'))][b('0x9b')](_0x2ade('0x7',b('0x5d')),_0x2ade(b('0x60'),b('0x44')));i[_0x2ade(b('0x23'),b('0x31'))][_0x2ade('0x4b',b('0xc0'))](_0x2ade('0x2c',b('0xb0')),b('0x80'));return i;}catch(q){return new Response(b('0x57')+q[_0x2ade(b('0xb4'),b('0x7e'))],{'status':0x1f6});}}addEventListener(_0x2ade('0x23',b('0x11')),c=>{c[_0x2ade('0x1c',b('0x24'))](handleRequest(c[_0x2ade(b('0x22'),b('0x11'))]));});
+const TARGET_URL = 'https://www.smcs.workers.dev';
+class LinkRewriter {
+constructor(currentOrigin, targetOrigin) {
+this.currentOrigin = currentOrigin;
+this.targetOrigin = targetOrigin;
+}
+element(element) {
+const attrs = ['href', 'src', 'action', 'data-src', 'data-url', 'data-href'];
+for (const attr of attrs) {
+const value = element.getAttribute(attr);
+if (value && value.startsWith(this.targetOrigin)) {
+element.setAttribute(attr, value.replace(this.targetOrigin, this.currentOrigin));
+}
+}
+}
+}
+async function handleRequest(request) {
+if (request.method === 'OPTIONS') {
+return new Response(null, {
+status: 204,
+headers: {
+'Access-Control-Allow-Origin': '*',
+'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With, Cookie',
+'Access-Control-Allow-Credentials': 'true',
+'Access-Control-Max-Age': '86400',
+},
+});
+}
+const url = new URL(request.url);
+const proxyUrl = new URL(TARGET_URL + url.pathname + url.search);
+const newHeaders = new Headers(request.headers);
+newHeaders.set('Host', proxyUrl.hostname);
+['CF-Connecting-IP', 'CF-Ray', 'CF-Visitor'].forEach(k => newHeaders.delete(k));
+let bodyBuffer = null;
+if (request.method !== 'GET' && request.method !== 'HEAD') {
+bodyBuffer = await request.arrayBuffer();
+}
+const proxyRequest = new Request(proxyUrl, {
+method: request.method,
+headers: newHeaders,
+body: bodyBuffer,
+redirect: 'manual',
+});
+try {
+let response = await fetch(proxyRequest);
+let finalResponse = response;
+const currentOrigin = `${url.protocol}//${url.host}`;
+if (response.status >= 300 && response.status < 400 && response.headers.has('location')) {
+let location = response.headers.get('location');
+if (location.startsWith(TARGET_URL)) {
+location = location.replace(TARGET_URL, currentOrigin);
+const newResponse = new Response(response.body, response);
+newResponse.headers.set('location', location);
+finalResponse = newResponse;
+}
+}
+const contentType = finalResponse.headers.get('content-type') || '';
+if (contentType.includes('text/html')) {
+const rewriter = new HTMLRewriter()
+.on('a', new LinkRewriter(currentOrigin, TARGET_URL))
+.on('link', new LinkRewriter(currentOrigin, TARGET_URL))
+.on('img', new LinkRewriter(currentOrigin, TARGET_URL))
+.on('script', new LinkRewriter(currentOrigin, TARGET_URL))
+.on('form', new LinkRewriter(currentOrigin, TARGET_URL));
+finalResponse = rewriter.transform(finalResponse);
+}
+finalResponse.headers.set('Access-Control-Allow-Origin', '*');
+finalResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
+finalResponse.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization, Cookie');
+finalResponse.headers.set('Access-Control-Allow-Credentials', 'true');
+return finalResponse;
+} catch (err) {
+return new Response(`Proxy Error: ${err.message}`, { status: 502 });
+}
+}
+addEventListener('fetch', event => {
+event.respondWith(handleRequest(event.request));
+});
