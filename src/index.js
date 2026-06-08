@@ -36,31 +36,31 @@ class ElementHandler {
 }
 
 async function handleRequest(request) {
-  if (request.method === 'OPTIONS') {
-    return new Response(null, {
-      status: 204,
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
-        'Access-Control-Max-Age': '86400',
-      },
-    });
-  }
-
-  const url = new URL(request.url);
-  const proxyUrl = new URL(__LIB__ + url.pathname + url.search);
-  const newHeaders = new Headers(request.headers);
-  newHeaders.set('Host', proxyUrl.hostname);
-  ['CF-Connecting-IP', 'CF-Ray', 'CF-Visitor'].forEach(k => newHeaders.delete(k));
-
-  const proxyRequest = new Request(proxyUrl, {
-    method: request.method,
-    headers: newHeaders,
-    body: request.method !== 'GET' && request.method !== 'HEAD' ? request.body : undefined,
-  });
-
   try {
+    if (request.method === 'OPTIONS') {
+      return new Response(null, {
+        status: 204,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+          'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+          'Access-Control-Max-Age': '86400',
+        },
+      });
+    }
+
+    const url = new URL(request.url);
+    const proxyUrl = new URL(__LIB__ + url.pathname + url.search);
+    const newHeaders = new Headers(request.headers);
+    newHeaders.set('Host', proxyUrl.hostname);
+    ['CF-Connecting-IP', 'CF-Ray', 'CF-Visitor'].forEach(k => newHeaders.delete(k));
+
+    const proxyRequest = new Request(proxyUrl, {
+      method: request.method,
+      headers: newHeaders,
+      body: request.method !== 'GET' && request.method !== 'HEAD' ? request.body : undefined,
+    });
+
     let response = await fetch(proxyRequest);
     const contentType = response.headers.get('content-type') || '';
     const currentOrigin = `${url.protocol}//${url.host}`;
@@ -105,7 +105,7 @@ async function handleRequest(request) {
 
     return response;
   } catch (err) {
-    return new Response(`Proxy Error: ${err.message}`, { status: 502 });
+    return new Response(`Error: ${err.message}\n__LIB__ = ${__LIB__}`, { status: 500 });
   }
 }
 
