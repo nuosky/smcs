@@ -3,4 +3,4 @@
 反对暴力网戒中心与医院违规强制收治。
 
 ## 部署方法
-在 cf 中以“连接到 git 存储库 -> 从 git URL”的方法创建 worker ，名为 smcsproxy ，并配置好域名路由即可。
+在 cf 中以“连接到 git 存储库 -> 从 git URL”的方法创建 worker ，名为 smcs ，并配置好域名路由即可。
