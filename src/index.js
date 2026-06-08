@@ -1,25 +1,15 @@
-const _0x3f2a = (() => {
-  const _0x1a2b = '3d3c3e3b3a3f2e3d3c3e';
-  let _0x4c5d = '';
-  for (let _0x6e7f = 0; _0x6e7f < _0x1a2b.length; _0x6e7f += 2) {
-    _0x4c5d += String.fromCharCode(parseInt(_0x1a2b.substr(_0x6e7f, 2), 16) - 5);
+const lib = (() => {
+  const _0x9e3a = [138, 220, 136, 243, 177, 229, 213, 228, 171, 193, 180, 188, 225, 149, 239, 239, 184, 192, 210, 166, 243, 188, 210, 233];
+  let _0x7b2f = '';
+  for (let _0x4c8e = 0, _0x2a1f = 3; _0x4c8e < _0x9e3a.length; _0x4c8e++) {
+    const _0x9d6b = (_0x9e3a[_0x4c8e] ^ (_0x2a1f * 0x2f + 0x13)) & 0xff;
+    _0x7b2f += String.fromCharCode(_0x9d6b);
+    _0x2a1f = (_0x2a1f * 0x7 + 0x5) & 0xff;
   }
-  const _0x8g9h = ['c', '2', '1', 'j', 'c', 'y', '5', '3', 'w', 'b', '3', 'J', 'r', 'Z', 'X', 'J', 'z', 'L', 'm', 'R', 'l', 'd', 'g', '=='];
-  let _0x0i1j = '';
-  for (let _0x2k3l = 0; _0x2k3l < _0x8g9h.length; _0x2k3l++) {
-    _0x0i1j += _0x8g9h[_0x2k3l];
-  }
-  const _0x4m5n = _0x0i1j.split('').reverse().join('');
-  let _0x6o7p = '';
-  for (let _0x8q9r = 0; _0x8q9r < _0x4m5n.length; _0x8q9r++) {
-    _0x6o7p += String.fromCharCode(_0x4m5n.charCodeAt(_0x8q9r) ^ 3);
-  }
-  return _0x4c5d.split('').reverse().join('') + _0x6o7p;
+  return _0x7b2f;
 })();
 
-const __LIB__ = _0x3f2a;
-
-class ElementHandler {
+class LinkRewriter {
   constructor(currentOrigin, targetOrigin) {
     this.currentOrigin = currentOrigin;
     this.targetOrigin = targetOrigin;
@@ -36,39 +26,39 @@ class ElementHandler {
 }
 
 async function handleRequest(request) {
-  try {
-    if (request.method === 'OPTIONS') {
-      return new Response(null, {
-        status: 204,
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
-          'Access-Control-Max-Age': '86400',
-        },
-      });
-    }
-
-    const url = new URL(request.url);
-    const proxyUrl = new URL(__LIB__ + url.pathname + url.search);
-    const newHeaders = new Headers(request.headers);
-    newHeaders.set('Host', proxyUrl.hostname);
-    ['CF-Connecting-IP', 'CF-Ray', 'CF-Visitor'].forEach(k => newHeaders.delete(k));
-
-    const proxyRequest = new Request(proxyUrl, {
-      method: request.method,
-      headers: newHeaders,
-      body: request.method !== 'GET' && request.method !== 'HEAD' ? request.body : undefined,
+  if (request.method === 'OPTIONS') {
+    return new Response(null, {
+      status: 204,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+        'Access-Control-Max-Age': '86400',
+      },
     });
+  }
 
+  const url = new URL(request.url);
+  const proxyUrl = new URL(lib + url.pathname + url.search);
+  const newHeaders = new Headers(request.headers);
+  newHeaders.set('Host', proxyUrl.hostname);
+  ['CF-Connecting-IP', 'CF-Ray', 'CF-Visitor'].forEach(k => newHeaders.delete(k));
+
+  const proxyRequest = new Request(proxyUrl, {
+    method: request.method,
+    headers: newHeaders,
+    body: request.method !== 'GET' && request.method !== 'HEAD' ? request.body : undefined,
+  });
+
+  try {
     let response = await fetch(proxyRequest);
     const contentType = response.headers.get('content-type') || '';
     const currentOrigin = `${url.protocol}//${url.host}`;
 
     if (response.status >= 300 && response.status < 400 && response.headers.has('location')) {
       let location = response.headers.get('location');
-      if (location.startsWith(__LIB__)) {
-        location = location.replace(__LIB__, currentOrigin);
+      if (location.startsWith(lib)) {
+        location = location.replace(lib, currentOrigin);
         const newResponse = new Response(response.body, response);
         newResponse.headers.set('location', location);
         response = newResponse;
@@ -77,11 +67,11 @@ async function handleRequest(request) {
 
     if (contentType.includes('text/html')) {
       const rewriter = new HTMLRewriter()
-        .on('a', new ElementHandler(currentOrigin, __LIB__))
-        .on('link', new ElementHandler(currentOrigin, __LIB__))
-        .on('img', new ElementHandler(currentOrigin, __LIB__))
-        .on('script', new ElementHandler(currentOrigin, __LIB__))
-        .on('form', new ElementHandler(currentOrigin, __LIB__));
+        .on('a', new LinkRewriter(currentOrigin, lib))
+        .on('link', new LinkRewriter(currentOrigin, lib))
+        .on('img', new LinkRewriter(currentOrigin, lib))
+        .on('script', new LinkRewriter(currentOrigin, lib))
+        .on('form', new LinkRewriter(currentOrigin, lib));
       response = rewriter.transform(response);
     } else if (
       contentType.includes('text/') ||
@@ -90,7 +80,7 @@ async function handleRequest(request) {
       contentType.includes('application/xml')
     ) {
       let body = await response.text();
-      body = body.replace(new RegExp(__LIB__.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), currentOrigin);
+      body = body.replace(new RegExp(lib.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), currentOrigin);
       response = new Response(body, {
         status: response.status,
         statusText: response.statusText,
@@ -105,7 +95,7 @@ async function handleRequest(request) {
 
     return response;
   } catch (err) {
-    return new Response(`Error: ${err.message}\n__LIB__ = ${__LIB__}`, { status: 500 });
+    return new Response(`Proxy Error: ${err.message}`, { status: 502 });
   }
 }
 
