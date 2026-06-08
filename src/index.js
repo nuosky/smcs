@@ -44,15 +44,19 @@ redirect: 'manual',
 });
 try {
 let response = await fetch(proxyRequest);
-let finalResponse = response;
 const currentOrigin = `${url.protocol}//${url.host}`;
+let finalResponse = response;
 if (response.status >= 300 && response.status < 400 && response.headers.has('location')) {
 let location = response.headers.get('location');
-if (location.startsWith(TARGET_URL)) {
+if (location && location.startsWith(TARGET_URL)) {
 location = location.replace(TARGET_URL, currentOrigin);
-const newResponse = new Response(response.body, response);
-newResponse.headers.set('location', location);
-finalResponse = newResponse;
+const newRespHeaders = new Headers(response.headers);
+newRespHeaders.set('location', location);
+finalResponse = new Response(response.body, {
+status: response.status,
+statusText: response.statusText,
+headers: newRespHeaders,
+});
 }
 }
 const contentType = finalResponse.headers.get('content-type') || '';
@@ -65,11 +69,16 @@ const rewriter = new HTMLRewriter()
 .on('form', new LinkRewriter(currentOrigin, TARGET_URL));
 finalResponse = rewriter.transform(finalResponse);
 }
-finalResponse.headers.set('Access-Control-Allow-Origin', '*');
-finalResponse.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
-finalResponse.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization, Cookie');
-finalResponse.headers.set('Access-Control-Allow-Credentials', 'true');
-return finalResponse;
+const finalHeaders = new Headers(finalResponse.headers);
+finalHeaders.set('Access-Control-Allow-Origin', '*');
+finalHeaders.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
+finalHeaders.set('Access-Control-Allow-Headers', 'Content-Type, Authorization, Cookie');
+finalHeaders.set('Access-Control-Allow-Credentials', 'true');
+return new Response(finalResponse.body, {
+status: finalResponse.status,
+statusText: finalResponse.statusText,
+headers: finalHeaders,
+});
 } catch (err) {
 return new Response(`Proxy Error: ${err.message}`, { status: 502 });
 }
